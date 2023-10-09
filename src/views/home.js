@@ -1,11 +1,23 @@
 import React from 'react'
 
 import { Helmet } from 'react-helmet'
+import { useHistory } from 'react-router-dom';
 
 import Card from '../components/card'
 import './home.css'
 
 const Home = (props) => {
+
+  const history = useHistory();
+
+  const handleLoginClick = () => {
+    history.push('/login');
+  };
+
+  const handleSignUpClick = () => {
+    history.push('/signup');
+  }
+
   return (
     <div className="home-container">
       <Helmet>
@@ -15,7 +27,7 @@ const Home = (props) => {
       <div className="navbar-container">
         <div className="max-width">
           <div className="home-logo">
-            <img alt="image" src="/group%202.svg" className="home-image" />
+            <img alt="" src="/group%202.svg" className="home-image" />
             <span className="brandName">
               <span className="home-text01">UP -</span>
               <span> START</span>
@@ -26,8 +38,8 @@ const Home = (props) => {
             <span className="home-text04 navbarLink">Features</span>
             <span className="home-text05 navbarLink">Blog</span>
             <span className="home-text06 navbarLink">Pricing</span>
-            <button className="button-secondary button">Log in</button>
-            <button className="button button-primary">Get started</button>
+            <button className="button-secondary button" onClick={handleSignUpClick}>Sign up</button>
+            <button className="button button-primary" onClick={handleLoginClick}>Sign in</button>
           </div>
           <div className="home-burger-menu navbar-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -64,14 +76,14 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-image1">
-            <img alt="image" src="/hero-600w.png" className="home-hero-image" />
+            <img alt="" src="/hero-600w.png" className="home-hero-image" />
             <img
-              alt="image"
+              alt=""
               src="/union-400w.png"
               className="home-graphic-top"
             />
             <img
-              alt="image"
+              alt=""
               src="/group%2018-1200w.png"
               className="home-image2"
             />
@@ -82,7 +94,7 @@ const Home = (props) => {
         <div className="home-max-width2 max-width">
           <div className="home-image3">
             <img
-              alt="image"
+              alt=""
               src="/group%2020-1200w.png"
               className="home-hero-image1"
             />
@@ -143,7 +155,7 @@ const Home = (props) => {
           </div>
           <div className="home-image4">
             <img
-              alt="image"
+              alt=""
               src="/group%2021-1200w.png"
               className="home-hero-image2"
             />
@@ -154,7 +166,7 @@ const Home = (props) => {
         <div className="home-max-width4 max-width">
           <div className="home-image5">
             <img
-              alt="image"
+              alt=""
               src="/jc-gellidon-fnc3yctccoi-unsplash%2014%20%5B1%5D-1200w.png"
               className="home-hero-image3"
             />
@@ -305,7 +317,7 @@ const Home = (props) => {
               </div>
             </div>
             <img
-              alt="image"
+              alt=""
               src="/group%202-1200w.png"
               className="home-image6"
             />
