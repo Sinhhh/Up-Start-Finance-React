@@ -66,7 +66,7 @@
   color: var(--dl-color-scheme-white);
   font-size: 52px;
   font-style: normal;
-  font-family: Urbanist;
+  font-family: "Urbanist";
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: var(--dl-space-space-twounits);
@@ -277,7 +277,7 @@
   color: var(--dl-color-scheme-white);
   font-size: 24px;
   font-style: normal;
-  font-family: Urbanist;
+  font-family: "Urbanist";
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -320,7 +320,7 @@
   color: var(--dl-color-scheme-white);
   font-size: 24px;
   font-style: normal;
-  font-family: Urbanist;
+  font-family: "Urbanist";
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -362,7 +362,7 @@
   color: var(--dl-color-scheme-white);
   font-size: 24px;
   font-style: normal;
-  font-family: Urbanist;
+  font-family: "Urbanist";
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -562,14 +562,6 @@
   flex-direction: row;
 }
 .home-button6 {
-  font-size: 16px;
-  padding-top: 12px;
-  margin-right: var(--dl-space-space-unit);
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 12px;
-}
-.home-button7 {
   padding-top: 12px;
   margin-right: 0px;
   padding-left: 24px;
@@ -647,58 +639,49 @@
 .home-text72 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text73 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .home-text74 {
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home-text75 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text76 {
-  font-weight: 700;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text77 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text78 {
+.home-text80 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text79 {
-  margin-bottom: var(--dl-space-space-unit);
+.home-text83 {
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text82 {
+.home-text84 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text85 {
-  font-weight: 700;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text86 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text87 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .home-text88 {
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.home-text89 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text90 {
-  font-weight: 700;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-unit);
 }
 .home-text91 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text92 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text93 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text94 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text95 {
   margin-bottom: var(--dl-space-space-unit);
 }
 @media(max-width: 991px) {
@@ -853,6 +836,13 @@
   }
 }
 @media(max-width: 479px) {
+  .home-text30 {
+    font-size: 42px;
+    font-style: normal;
+    font-family: Urbanist;
+    font-weight: 700;
+    line-height: 1.25;
+  }
   .home-banner {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);

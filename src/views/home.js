@@ -26,8 +26,8 @@ const Home = (props) => {
             <span className="home-text04 navbarLink">Features</span>
             <span className="home-text05 navbarLink">Blog</span>
             <span className="home-text06 navbarLink">Pricing</span>
-            <button className="button-secondary button">Log in</button>
-            <button className="button button-primary">Get started</button>
+            <button className="button-secondary button">Sign Up</button>
+            <button className="button button-primary">Sign In</button>
           </div>
           <div className="home-burger-menu navbar-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -44,7 +44,7 @@ const Home = (props) => {
             </span>
             <h1 className="home-title">
               <span>
-                Unlock the next generation banking
+                Unlock the next generation gambling
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -59,12 +59,16 @@ const Home = (props) => {
               Exercitation veniam consequat sunt nostrud amet.
             </span>
             <div className="home-container01">
-              <button className="button button-gradient">Get started</button>
-              <button className="button button-transparent">Log in</button>
+              <button className="button button-gradient">Sign Up</button>
+              <button className="button button-transparent">Sign In</button>
             </div>
           </div>
           <div className="home-image1">
-            <img alt="image" src="/hero-600w.png" className="home-hero-image" />
+            <img
+              alt="image"
+              src="https://images.unsplash.com/photo-1583272948447-5bbb5d5b9579?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDgyfHxnYW1ibGluZ3xlbnwwfHx8fDE2OTY3Njg3NDN8MA&amp;ixlib=rb-4.0.3&amp;w=600"
+              className="home-hero-image"
+            />
             <img
               alt="image"
               src="/union-400w.png"
@@ -155,7 +159,7 @@ const Home = (props) => {
           <div className="home-image5">
             <img
               alt="image"
-              src="/jc-gellidon-fnc3yctccoi-unsplash%2014%20%5B1%5D-1200w.png"
+              src="https://images.unsplash.com/photo-1542222780-b06f7307d2c5?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE5MXx8Z2FtYmxpbmd8ZW58MHx8fHwxNjk2NzY4OTI5fDA&amp;ixlib=rb-4.0.3&amp;w=1200"
               className="home-hero-image3"
             />
           </div>
@@ -167,7 +171,7 @@ const Home = (props) => {
                 <span className="home-text23">1</span>
               </div>
               <div className="home-container04">
-                <span className="home-title1">Download UpStart App</span>
+                <span className="home-title1">Create your free account</span>
                 <span className="home-text24">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
@@ -179,7 +183,9 @@ const Home = (props) => {
                 <span className="home-text25">2</span>
               </div>
               <div className="home-container05">
-                <span className="home-title2">Create your free account</span>
+                <span className="home-title2">
+                  Pay money to earn your coins
+                </span>
                 <span className="home-text26">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
@@ -208,8 +214,7 @@ const Home = (props) => {
           <span className="home-text29 beforeHeading">get started</span>
           <h1 className="home-text30">
             <span>No matter what you do,</span>
-            <br></br>
-            <span>UpStart will save you money</span>
+            <span>UpStart will accompany you</span>
           </h1>
           <div className="home-cards-container">
             <Card rootClassName="card-root-class-name"></Card>
@@ -339,10 +344,7 @@ const Home = (props) => {
               </span>
             </span>
             <div className="home-btns">
-              <button className="home-button6 button button-transparent">
-                See all plans
-              </button>
-              <button className="home-button7 button button-gradient">
+              <button className="home-button6 button button-gradient">
                 Get started
               </button>
             </div>
@@ -372,39 +374,36 @@ const Home = (props) => {
               <span className="home-text69">Company</span>
               <span className="home-text70">About us</span>
               <span className="home-text71">Culture</span>
-              <span className="home-text72">Code of conduct</span>
-              <span className="home-text73">Careers</span>
-              <span className="home-text74">News</span>
+              <span className="home-text72">News</span>
               <span>Contact</span>
             </div>
             <div className="footer-column">
-              <span className="home-text76">Invest</span>
-              <span className="home-text77">Commodity</span>
-              <span className="home-text78">Savings</span>
-              <span className="home-text79">
+              <span className="home-text74">Invest</span>
+              <span className="home-text75">Commodity</span>
+              <span className="home-text76">Savings</span>
+              <span className="home-text77">
                 <span>Taxes and fees</span>
                 <br></br>
                 <span></span>
               </span>
-              <span className="home-text82">
+              <span className="home-text80">
                 <span>Currency exchange</span>
               </span>
               <span>Community</span>
             </div>
             <div className="footer-column">
-              <span className="home-text85">Security</span>
-              <span className="home-text86">Security status</span>
-              <span className="home-text87">ISO</span>
-              <span className="home-text88">System status</span>
+              <span className="home-text83">Security</span>
+              <span className="home-text84">Security status</span>
+              <span className="home-text85">ISO</span>
+              <span className="home-text86">System status</span>
               <span>Customer Help</span>
             </div>
             <div className="footer-column">
-              <span className="home-text90">Follow</span>
-              <span className="home-text91">Instagram</span>
-              <span className="home-text92">Twitter</span>
-              <span className="home-text93">Facebook</span>
-              <span className="home-text94">Tik Tok</span>
-              <span className="home-text95">Linkedln</span>
+              <span className="home-text88">Follow</span>
+              <span className="home-text89">Instagram</span>
+              <span className="home-text90">Twitter</span>
+              <span className="home-text91">Facebook</span>
+              <span className="home-text92">Linkedln</span>
               <span>Youtube</span>
             </div>
           </div>
