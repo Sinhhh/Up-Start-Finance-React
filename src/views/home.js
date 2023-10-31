@@ -1,11 +1,23 @@
 import React from 'react'
 
 import { Helmet } from 'react-helmet'
+import { useHistory } from 'react-router-dom';
 
 import Card from '../components/card'
 import './home.css'
 
 const Home = (props) => {
+
+  const history = useHistory();
+
+  const handleLoginClick = () => {
+    history.push('/login');
+  };
+
+  const handleSignUpClick = () => {
+    history.push('/signup');
+  }
+
   return (
     <div className="home-container">
       <Helmet>
@@ -26,8 +38,8 @@ const Home = (props) => {
             <span className="home-text04 navbarLink">Features</span>
             <span className="home-text05 navbarLink">Blog</span>
             <span className="home-text06 navbarLink">Pricing</span>
-            <button className="button-secondary button">Sign Up</button>
-            <button className="button button-primary">Sign In</button>
+            <button className="button-secondary button" onClick={handleSignUpClick}>Sign up</button>
+            <button className="button button-primary" onClick={handleLoginClick}>Sign in</button>
           </div>
           <div className="home-burger-menu navbar-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
