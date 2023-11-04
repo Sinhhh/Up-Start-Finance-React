@@ -1,8 +1,8 @@
-// Login.js
+// Signin.js
 import React, { useState } from 'react';
-import './login.css'; // Import the CSS file
+import './signin.css'; // Import the CSS file
 
-function Login() {
+function Signin() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -17,6 +17,8 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add logic to authenticate the user here
+    console.log('Email:', email)
+    console.log('Password:', password)
   };
 
   return (
@@ -50,4 +52,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Signin;

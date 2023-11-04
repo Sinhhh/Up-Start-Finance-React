@@ -1,4 +1,4 @@
-/* Login.css */
+/* Signin.css */
 img {
     width: 100%; 
 }
@@ -141,3 +141,19 @@ img {
     margin-top: -3px;
 }
   
+@media (max-width: 576px) {
+    .login_box {
+      flex-direction: column; /* Stack elements on small screens */
+    }
+  
+    .login_box .left,
+    .login_box .right {
+      width: 100%; /* Utilize full width on smaller screens */
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
+  
+    .login_box .right {
+      display: block; /* Show the right section on smaller screens */
+      background: none; /* Remove background gradient and image */
+    }
+}

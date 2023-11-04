@@ -10,8 +10,8 @@ const Home = (props) => {
 
   const history = useHistory();
 
-  const handleLoginClick = () => {
-    history.push('/login');
+  const handleSignInClick = () => {
+    history.push('/signin');
   };
 
   const handleSignUpClick = () => {
@@ -39,7 +39,7 @@ const Home = (props) => {
             <span className="home-text05 navbarLink">Blog</span>
             <span className="home-text06 navbarLink">Pricing</span>
             <button className="button-secondary button" onClick={handleSignUpClick}>Sign up</button>
-            <button className="button button-primary" onClick={handleLoginClick}>Sign in</button>
+            <button className="button button-primary" onClick={handleSignInClick}>Sign in</button>
           </div>
           <div className="home-burger-menu navbar-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -71,8 +71,8 @@ const Home = (props) => {
               Exercitation veniam consequat sunt nostrud amet.
             </span>
             <div className="home-container01">
-              <button className="button button-gradient">Sign Up</button>
-              <button className="button button-transparent">Sign In</button>
+              <button className="button button-gradient" onClick={handleSignUpClick}>Sign Up</button>
+              <button className="button button-transparent" onClick={handleSignInClick}>Sign In</button>
             </div>
           </div>
           <div className="home-image1">
